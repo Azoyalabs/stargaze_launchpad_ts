@@ -28,8 +28,9 @@ import {
   Coin,
   Addr,
   MinterConfigForEmpty,
-  MinterConfigResponseForEmpty,
   QueryMsg,
+  ConfigResponse,
+  StatusResponse,
 } from "./BaseMinter.types";
 import { BaseMinterQueryClient, BaseMinterClient } from "./BaseMinter.client";
 export const baseMinterQueryKeys = {

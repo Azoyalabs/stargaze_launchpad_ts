@@ -36,6 +36,7 @@ import {
   ConfigExtension,
   QueryMsg,
   StartTimeResponse,
+  StatusResponse,
 } from "./VendingMinter.types";
 import {
   VendingMinterQueryClient,
